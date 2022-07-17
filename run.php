@@ -60,7 +60,7 @@ print color($string ,$warna_string , $warna_latar) . "\n\n";
 //Test semua warna string
 foreach ( array_keys(List_Warna_String) as $warna_string ){ 
 	foreach( array_keys(List_Warna_Latar) as $warna_latar ){
-		print " ".color($string,$warna_string, $warna_latar) . "\t";
+		print color($string,$warna_string, $warna_latar) . "\t";
 	}
 	print "\n";
 }
