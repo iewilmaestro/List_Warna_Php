@@ -14,7 +14,27 @@ $ termux-setup-storage
 $ git clone https://github.com/iewilmaestro/List_Warna_Php
 $ php run.php
 ```
-### Note
+
+### Tes
+```php
+//Mewarnai string
+$string = "Hello World";
+$warna_string = "black";
+$warna_latar = "blue";
+
+
+//Tes 1 string
+print color($string ,$warna_string , $warna_latar) . "\n\n";
+
+//Test semua warna string
+foreach ( array_keys(List_Warna_String) as $warna_string ){ 
+	foreach( array_keys(List_Warna_Latar) as $warna_latar ){
+		print " ".color($string,$warna_string, $warna_latar) . "\t";
+	}
+	print "\n";
+}
+```
+### Hasil
 <img align='center' src="https://github.com/iewilmaestro/List_Warna_Php/blob/main/colors.png" width="1100" title="example">
 
 ![Donation: iewil](https://img.shields.io/badge/💰-Donation-blue?style=flat-square)<br>
