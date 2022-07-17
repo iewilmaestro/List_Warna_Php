@@ -24,7 +24,7 @@ List_Warna_String = [
 	'brown' 	=> '0;33',
 	'yellow' 	=> '1;33',
 	'light_gray' 	=> '0;37',
-	'white'		 => '1;37'
+	'white'		=> '1;37'
 ],
 List_Warna_Latar = [
 	'black' 	=> '40',
